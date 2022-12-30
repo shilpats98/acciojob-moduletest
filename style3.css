@@ -1,0 +1,46 @@
+@media screen  and (max-width :375px){
+   .nav {
+    padding-right: 30px;
+    display: block;
+   }
+   .nav-right li{
+    display:flex;
+    justify-content: space-evenly;
+    margin-left: 50px;
+    
+    
+    
+}
+    
+    .home .home-heading{
+        font-size: 50px;
+    
+    }
+
+    .home{
+    
+        display: inline-block;
+    }
+    .home-img{
+        margin-top: 100px;
+    }
+    .about-page{
+        display: inline-block;
+
+    }
+    .about-text{
+        margin: 0;
+    }
+    .about-img{
+        margin: 0;
+    }
+
+    .service-page .service-box{
+        display: block;
+    }
+
+    input{
+        width:175px
+    }
+
+}

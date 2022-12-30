@@ -1,0 +1,161 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    border:1px solid black;
+    color:white;
+    background-color: black;
+    position: sticky;
+    
+}
+*{
+    margin:0;
+    height: auto;
+}
+
+.nav-right li{
+    display:inline;
+    margin-left: 20px;
+    
+    
+}
+.nav-right{
+    margin-right: 10px;
+}
+.nav-left{
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    
+}
+
+.home{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+   
+    
+}
+.home-heading{
+    font-size: 150px;
+    font-weight: bold;
+    margin-left: 50px;
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 80px;
+    position: relative;
+    
+    
+    
+}
+ 
+     
+
+
+
+.home-img{
+    margin-top: 300px;
+    margin-right: 390px;
+    
+}
+
+.about-page{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.about-text{
+    margin-left: 50px;
+    text-align: justify;
+}
+.about-img{
+    
+    margin-left: 20px;
+    position: relative;
+}
+
+.service-page .service-box{
+    display: flex;
+    justify-items:auto;
+   
+    
+    
+}
+.service-box.service-item{
+   
+    font-weight: 100;
+    font-size: 50px;
+}
+
+.service-page:hover{
+  background-color: rgb(40, 32, 32);
+  border:1px solid rgb(40, 32, 32);
+  color: white;
+}
+ .service-page{
+    margin-top: 100px;
+    margin-bottom: 300px;
+ }   
+
+.service-item p {
+    text-align:justify;
+}
+
+.footer-page{
+    margin-top: 300px;
+    background-color: black;
+    color: white;
+}
+.footer-heading{
+    text-align: center;
+    
+    margin:auto;
+}
+.footer-form{
+    text-align: center;
+    margin-top: 50px;
+}
+ .footer-page .footer-form label{
+    margin-bottom: 20px;
+   
+}
+input{
+    height:20px;
+    width: 500px;
+    margin-bottom: 25px;
+}
+button{
+    margin-bottom:20px ;
+}
+
+ 
+
+/*media query*/
+
+@media screen and ( min-width:1024px )and ( max-width:1440px)  {
+    
+
+    .home-heading{
+        font-size: 90px;
+    }
+    .home-img{
+        margin-top: 200px;
+        height: 60px;
+        width:90px;
+    }
+}
+
+@media screen and ( min-width:768px )and ( max-width:1024px){
+    .home-heading{
+        font-size: 70px;
+    }
+    .home-img{
+        margin-top: 90px;
+        height: 50px;
+        width:20px;
+        
+    }
+    .home{
+       padding-bottom: 30px;
+    }
+}

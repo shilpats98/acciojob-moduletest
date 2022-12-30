@@ -1,0 +1,35 @@
+@media screen and (min-width:425px) and (max-width:767px) {
+    .home-heading{
+        font-size: 70px;
+    }
+    .home{
+        display: inline-block;
+        margin: 0;
+        padding: 5px;;
+        position: relative;
+    }
+    .home-img{
+        margin: 0;
+        padding: 0;
+    }
+
+    .about-page{
+        display: block;
+        
+    }
+    .about-img{
+        margin: 0;
+    }
+    .about-text{
+        margin: 0;
+    }
+    .service-page .service-box{
+        display: block;
+    }
+
+    input{
+        width:225px
+    }
+
+}
+
